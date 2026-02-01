@@ -6,10 +6,10 @@
 
 ## 👥 Group Information
 
-| Name | UIN | Email |
-|------|-----|-------|
-| Sunil Kuruba | 659375633 | skuru@uic.edu |
-| Richa Rameshkrishna | 651622805 | rrame11@uic.edu |
+| Name | Email |
+|------|-------|
+| Sunil Kuruba | skuru@uic.edu |
+| Richa Rameshkrishna | rrame11@uic.edu |
 
 ---
 
@@ -60,7 +60,7 @@ Spanning 2023 and 2024, the data enables exploration of time-based changes like 
 #### 3. Geographic Visualizations
 Detailed location data (city, state, country, zip) allows mapping of job concentrations and exploration of remote work distribution geographically.
 
-#### 4. Salary, Company & Skills — Combined Visualization Potential
+#### 4. Salary, Company & Skills - Combined Visualization Potential
 - **Salary & Compensation:** Min, median, and max salary fields enable comparison across roles, companies, and regions
 - **Company-Level Analysis:** Company size and follower counts reveal how hiring differs between startups and enterprises
 - **Skills & Benefits:** Separate skill/benefit files highlight what companies value most
@@ -259,7 +259,7 @@ All sketches are located in the `sketches/` directory.
 
 ### Design Process Summary
 
-Through this sketching process, we learned that different designs reveal different aspects of data. Line charts excel at temporal trends but lack categorical depth. Bar charts provide clear rankings but miss relationships. Network graphs reveal connections but risk complexity. This diversity of approaches—comparing conventional vs. exploratory directions—helped us understand that no single visualization is "best"; effectiveness depends on the specific question being asked.
+Through this sketching process, we learned that different designs reveal different aspects of data. Line charts excel at temporal trends but lack categorical depth. Bar charts provide clear rankings but miss relationships. Network graphs reveal connections but risk complexity. This diversity of approaches-comparing conventional vs. exploratory directions-helped us understand that no single visualization is "best"; effectiveness depends on the specific question being asked.
 
 The iterative process of moving from general to specific, from simple to statistically rich, improved both clarity and depth. Starting with broad abstractions and refining through multiple sketches created a toolkit of complementary perspectives.
 
@@ -339,7 +339,7 @@ The iterative process of moving from general to specific, from simple to statist
 **Key Findings:**
 - **Western** (CA, WA) and **Northeastern** (MA, NY) states have highest salaries
 - **Central** and **Southern** states offer lower median pay
-- Strong regional inequality—proximity to tech hubs correlates with better compensation
+- Strong regional inequality-proximity to tech hubs correlates with better compensation
 
 **Static Visualization:**
 
@@ -566,7 +566,7 @@ Through this assignment, we learned to transform raw job posting data into meani
 
 ---
 
-### Visualization 4: Salary Distribution by Experience (Richa's View)
+### Visualization 4: Salary Distribution by Experience
 
 **Question:** How does salary distribution vary across experience levels?
 
@@ -587,7 +587,8 @@ Through this assignment, we learned to transform raw job posting data into meani
 
 **Visualization:**
 
-![Task 2 Richa](sketches/Task_2_richa.gif)
+![Task 2 Richa](sketches/Task_1a_richa.gif)
+![Task 2 Richa](sketches/Task_1b_richa.gif)
 
 ---
 
@@ -746,7 +747,7 @@ Every job posting was transformed into a structured numeric embedding capturing 
 - Keywords: "data scientist," "data engineer," "machine learning engineer," "analyst"
 - Binary flags indicate membership in job family
 
-#### Feature Engineering - Part 2 (Richa)
+#### Feature Engineering - Part 2 
 
 **Objective:** Create embeddings capturing job similarity based on compensation, requirements, geography, and engagement patterns.
 
@@ -811,7 +812,7 @@ We used **Principal Component Analysis (PCA)** as the primary dimensionality red
 - `random_state=42` for stability
 - Resulting coordinates saved in `data_science_job_posts_2025_embeddings_2d.csv`
 
-#### Methods Compared - Part 2 (Richa)
+#### Methods Compared - Part 2 
 
 **1. PCA (Principal Component Analysis)**
 - **Parameters:** 2 components, random_state=42
@@ -1070,43 +1071,6 @@ This project is created for educational purposes as part of a visual analytics c
 
 ---
 
-## 🤝 Collaboration
-
-### Assignment 1: Dataset Selection & Preprocessing
-- **Sunil Kuruba:** Data exploration, preprocessing pipeline, salary normalization
-- **Richa Rameshkrishna:** Dataset research, data profiling, skills parsing
-
-### Assignment 2: Visualization Design & Sketching
-- **Sunil Kuruba:** Q1, Q2, Q3 sketches and designs
-- **Richa Rameshkrishna:** Q4, Q5, Q6 sketches and designs
-
-### Assignment 3: Static & Interactive Visualizations
-- **Sunil Kuruba:** Q1, Q2, Q3, Q4 implementation
-- **Richa Rameshkrishna:** Q5, Q6, Q7 implementation
-
-### Assignment 4: Linked Views & Spatial Analysis
-- **Sunil Kuruba:** Visualization 1, 2 (Linked views and spatial top skills)
-- **Richa Rameshkrishna:** Visualization 3, 4, 5 (Comprehensive dashboard and spatial salary)
-
-### Assignment 5: Dimensionality Reduction & Web App
-- **Sunil Kuruba:** Embedding generation (Part 1), PCA implementation
-- **Richa Rameshkrishna:** Embedding generation (Part 2), t-SNE/UMAP, web application
-
-### Collaboration Process
-
-Our group emphasized collaboration and iteration throughout the project:
-
-- **Daily Meetings:** One hour at UIC CS building for brainstorming and refinement
-- **Online Coordination:** Continuous WhatsApp communication for updates and clarifications
-- **Version Control:** GitHub for README, datasets, and visualizations
-- **Review Process:** Mutual review of each other's work, suggesting improvements
-- **Task Division:** Fluid rather than rigid; rotated responsibilities for sketching and refinement
-- **Iterative Design:** Multiple rounds of critique improved visualization quality
-
-The most effective aspect was the rhythm between structured offline meetings and quick online updates. Main challenge was time management for visualizations requiring multiple refinement rounds. Each round of critique brought us closer to sharper, more intuitive, and meaningful visualizations.
-
----
-
 ## 📧 Contact
 
 For questions or suggestions, please contact:
@@ -1114,9 +1078,5 @@ For questions or suggestions, please contact:
 - **Richa Rameshkrishna:** rrame11@uic.edu
 
 ---
-
-**Last Updated:** January 2026
-
-**Project Repository:** [GitHub - LinkedIn Job Analytics](https://github.com/sunilkuruba/linkedin-job-analytics)
 
 **Live Demo:** [Web Application](https://sunilkuruba.github.io/Assignment-4-copy/)
