@@ -683,11 +683,9 @@ Through this assignment, we learned to transform raw job posting data into meani
 
 ### Preview
 
-![Web App Preview](https://github.com/user-attachments/assets/53bd42bd-32d2-41c1-a4e5-f0469349014c)
-
 ### Hosted Site
 
-**GitHub Pages:** [Live Demo](https://sunilkuruba.github.io/Assignment-4-copy/)
+**GitHub Pages:** [Live Demo](https://richa-ramesh.github.io/visual-analytics-job-market/)
 
 We use GitHub Pages for easy hosting with no deployment or code required.
 
@@ -972,7 +970,7 @@ umap-learn>=0.5.0
    - Open browser to `http://localhost:8000`
 
 3. **Option 3 - GitHub Pages (Deployed):**
-   - Visit: [https://sunilkuruba.github.io/Assignment-4-copy/](https://sunilkuruba.github.io/Assignment-4-copy/)
+   - Visit: [https://sunilkuruba.github.io/Assignment-4-copy/](https://richa-ramesh.github.io/visual-analytics-job-market/)
 
 ---
 
@@ -1079,4 +1077,4 @@ For questions or suggestions, please contact:
 
 ---
 
-**Live Demo:** [Web Application](https://sunilkuruba.github.io/Assignment-4-copy/)
+**Live Demo:** [Web Application](https://richa-ramesh.github.io/visual-analytics-job-market/)
