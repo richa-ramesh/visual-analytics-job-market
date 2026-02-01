@@ -970,7 +970,7 @@ umap-learn>=0.5.0
    - Open browser to `http://localhost:8000`
 
 3. **Option 3 - GitHub Pages (Deployed):**
-   - Visit: [https://sunilkuruba.github.io/Assignment-4-copy/](https://richa-ramesh.github.io/visual-analytics-job-market/)
+   - Visit: [https://richa-ramesh.github.io/visual-analytics-job-market/](https://richa-ramesh.github.io/visual-analytics-job-market/)
 
 ---
 
